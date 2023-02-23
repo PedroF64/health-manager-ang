@@ -7,10 +7,12 @@ import { Component } from '@angular/core';
 })
 export class RegisterComponent {
   
+  userNameInput = "";
   firstNameInput = "";
   lastNameInput = "";
   emailInput = "";
   passwordInput = "";
+  repeatPasswordInput = "";
   hide = true;
 
   // TODO
