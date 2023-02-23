@@ -6,6 +6,10 @@
         <mat-divider></mat-divider>
         <form fxLayoutAlign="stretch" fxLayout="column" class="signup-form">
             <mat-form-field>
+                <mat-label>Enter your user name</mat-label>
+                <input matInput type="text" name="userNameInput" [(ngModel)]="userNameInput" />
+            </mat-form-field>
+            <mat-form-field>
                 <mat-label>Enter your first name</mat-label>
                 <input matInput type="text" name="firstNameInput" [(ngModel)]="firstNameInput" />
             </mat-form-field>
@@ -24,6 +28,10 @@
                     [attr.aria-pressed]="hide">
                     <mat-icon>{{ hide ? "visibility_off" : "visibility" }}</mat-icon>
                 </button>
+            </mat-form-field>
+            <mat-form-field appearance="fill">
+                <mat-label>Repeat your password</mat-label>
+                <input matInput type="password" name="repeatPasswordInput" [(ngModel)]="repeatPasswordInput" />
             </mat-form-field>
             <div fxLayoutAlign="center center" fxFlexFill class="button-div">
                 <button mat-raised-button type="submit" class="button" (click)="signup()">

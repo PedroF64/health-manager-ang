@@ -7,7 +7,7 @@ import { Component } from '@angular/core';
 })
 export class LoginComponent {
 
-  emailInput = "";
+  usernameInput = "";
   passwordInput = "";
   hide = true;
 
