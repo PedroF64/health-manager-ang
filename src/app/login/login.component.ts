@@ -1,5 +1,4 @@
 import { Component } from '@angular/core';
-import { Router } from "@angular/router"
 
 @Component({
   selector: 'app-login',
@@ -8,6 +7,11 @@ import { Router } from "@angular/router"
 })
 export class LoginComponent {
 
+  emailInput = "";
+  passwordInput = "";
   hide = true;
+
+  // TODO
+  login() {}
   
 }

@@ -1,0 +1,40 @@
+<div fxLayoutAlign="center center" fxFlexFill class="main-div" >
+    <mat-card>
+        <mat-toolbar fxLayoutAlign="center center" class="toolbar-div">
+            <span class="title">SIGN UP</span>
+        </mat-toolbar>
+        <mat-divider></mat-divider>
+        <form fxLayoutAlign="stretch" fxLayout="column" class="signup-form">
+            <mat-form-field>
+                <mat-label>Enter your first name</mat-label>
+                <input matInput type="text" name="firstNameInput" [(ngModel)]="firstNameInput" />
+            </mat-form-field>
+            <mat-form-field>
+                <mat-label>Enter your last name</mat-label>
+                <input matInput type="text" name="lastNameInput" [(ngModel)]="lastNameInput" />
+            </mat-form-field>
+            <mat-form-field>
+                <mat-label>Enter your email</mat-label>
+                <input matInput type="text" name="emailInput" [(ngModel)]="emailInput" />
+            </mat-form-field>
+            <mat-form-field appearance="fill">
+                <mat-label>Enter your password</mat-label>
+                <input matInput [type]="hide ? 'password' : 'text'" name="passwordInput" [(ngModel)]="passwordInput" />
+                <button mat-icon-button matSuffix (click)="hide = !hide" [attr.aria-label]="'Hide password'"
+                    [attr.aria-pressed]="hide">
+                    <mat-icon>{{ hide ? "visibility_off" : "visibility" }}</mat-icon>
+                </button>
+            </mat-form-field>
+            <div fxLayoutAlign="center center" fxFlexFill class="button-div">
+                <button mat-raised-button type="submit" class="button" (click)="signup()">
+                    SIGN UP
+                </button>
+            </div>
+        </form>
+        <div fxLayoutAlign="center center" fxFlexFill>
+            <span class="span-new">Already have an account? <a href="/login" class="href"> Login</a></span>
+        </div>
+        <p></p>
+    </mat-card>
+</div>
+
