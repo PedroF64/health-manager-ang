@@ -1,0 +1,42 @@
+.main-div mat-card {
+    padding: 0px;
+    background-color: #2e3136;
+    backdrop-filter: blur(3px);
+  
+}
+
+.toolbar-div {
+    background-color: transparent;
+}
+
+.signup-form {
+    padding: 40px;
+}
+
+.title {
+    color: white;
+    font-size: 200%;
+}
+
+.span-forget {
+    color: white;
+    padding-top: 0%;
+    text-align: left;
+}
+
+.span-new {
+    color: white;
+}
+
+.href {
+    color: blue;
+}
+
+.button-div {
+    padding-top: 5%;
+}
+
+.button {
+    width: 70%;
+    align-content: center;
+}
