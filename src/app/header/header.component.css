@@ -1,0 +1,23 @@
+.toolbar {
+    background-color: #212121;
+    padding: 10px;
+}
+
+.spacer {
+    flex: 1 1 auto;
+}
+
+.icon {
+    color: white;
+}
+
+.profile {
+    display: inline-block;
+    height: 120%;
+    border-radius: 75%;
+    /* background-image: url(''); */
+    background-color: white;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
