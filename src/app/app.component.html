@@ -1,6 +1,6 @@
 <app-header (toggleSidebarForMe)="sideBarToggler()"></app-header>
 <mat-drawer-container class="drawer-container" *ngIf="isLoggeIn">
-  <mat-drawer #sidenav class="drawer" mode="side" [opened]="sideBarOpen">
+  <mat-drawer #sidenav class="drawer" mode="side" [opened]="sideBarOpen" position="start">
     <app-sidenav></app-sidenav>
   </mat-drawer>
   <mat-drawer-content>
