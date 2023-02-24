@@ -1,0 +1,22 @@
+.logo {
+    text-align: center;
+    padding: 10px;
+    color: white;
+}
+
+.mat-divider {
+    border-top-width: 2px;
+    border-color: white;
+}
+
+.icon {
+    color: white;
+}
+
+.button {
+    background-color: transparent;
+}
+
+.button-text {
+    color:white;
+}
