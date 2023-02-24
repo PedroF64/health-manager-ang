@@ -1,4 +1,7 @@
 .toolbar {
+    position: sticky;
+    z-index: 1000;
+    top: 0;
     background-color: #212121;
     padding: 10px;
 }
@@ -9,15 +12,25 @@
 
 .icon {
     color: white;
+    position:relative;
 }
 
-.profile {
-    display: inline-block;
-    height: 120%;
-    border-radius: 75%;
-    /* background-image: url(''); */
-    background-color: white;
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
+.mat-divider {
+    border-top-width: 2px;
+    border-color: white;
 }
+
+.button {
+    color: white;
+    background-color: transparent;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+
+
+   
