@@ -1,0 +1,13 @@
+.div-main {
+    padding: 0 1rem;
+    background: transparent;
+}
+
+.mat-card {
+  background: transparent;
+}
+
+.mat-header {
+  color: white;
+  font-size: 32px;
+}

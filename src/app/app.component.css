@@ -1,4 +1,4 @@
-.drawer-container{
+.main-div {
     background-image: url("../assets/Impact-Training-Solution-Story-Hero-Slide.jpg");
     background-position: center;
     background-repeat: no-repeat;
@@ -7,10 +7,27 @@
     height: 100%;
 }
 
-.drawer {
+.drawer-container {
+    background: transparent;
+}
+
+.drawer-open {
     width: auto;
     background: #212121;
     left: 0;
     position: fixed;
+    padding-top: 60px; 
+}
+
+.drawer-close {
+    width: 60px;
+    background: #212121;
+    left: 0;
+    position: fixed;
     padding-top: 60px;
+}
+
+.drawer-content {
+    background: transparent;
+    margin-top: 10px;
 }

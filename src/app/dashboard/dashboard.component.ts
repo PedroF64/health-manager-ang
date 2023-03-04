@@ -7,4 +7,9 @@ import { Component } from '@angular/core';
 })
 export class DashboardComponent {
 
+  choice = 1;
+
+  click(num: number){
+    this.choice = num;
+  }
 }

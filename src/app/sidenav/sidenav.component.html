@@ -1,50 +1,34 @@
 <mat-nav-list>
-    <mat-list-item>
-        <button mat-button class="button" routerLinkActive="list-item-active" routerLink="/dashboard">
-            <mat-icon class="icon">monitor_heart</mat-icon>
-            <span class="button-text">DASHBOARD</span>
-        </button>
+    <mat-list-item routerLinkActive="list-item-active" routerLink="/dashboard">
+        <mat-icon matListItemIcon  class="icon">monitor_heart</mat-icon>
+        <div matListItemTitle *ngIf="data" class="button-text">DASHBOARD</div>
     </mat-list-item>
-    <mat-list-item>
-        <button mat-button class="button" routerLinkActive="list-item-active" routerLink="">
-            <mat-icon class="icon">fitness_center</mat-icon>
-            <span class="button-text">WORKOUTS</span>
-        </button>
+    <mat-list-item routerLinkActive="list-item-active" routerLink="/workouts">
+        <mat-icon matListItemIcon  class="icon">fitness_center</mat-icon>
+        <div matListItemTitle *ngIf="data" class="button-text">WORKOUTS</div>
     </mat-list-item>
-    <mat-list-item>
-        <button mat-button class="button" routerLinkActive="list-item-active" routerLink="">
-            <mat-icon class="icon">restaurant</mat-icon>
-            <span class="button-text">MEALS</span>
-        </button>
+    <mat-list-item routerLinkActive="list-item-active" routerLink="">
+        <mat-icon matListItemIcon  class="icon">restaurant</mat-icon>
+        <div matListItemTitle *ngIf="data" class="button-text">MEALS</div>
     </mat-list-item>
-    <mat-list-item>
-        <button mat-button class="button" routerLinkActive="list-item-active" routerLink="">
-            <mat-icon class="icon">flag</mat-icon>
-            <span class="button-text">GOALS</span>
-        </button>
+    <mat-list-item routerLinkActive="list-item-active" routerLink="">
+        <mat-icon matListItemIcon  class="icon">flag</mat-icon>
+        <div matListItemTitle *ngIf="data" class="button-text">GOALS</div>
     </mat-list-item>
-    <mat-list-item>
-        <button mat-button class="button" routerLinkActive="list-item-active" routerLink="">
-            <mat-icon class="icon">star</mat-icon>
-            <span class="button-text">PERSONAL BEST</span>
-        </button>
+    <mat-list-item routerLinkActive="list-item-active" routerLink="">
+        <mat-icon matListItemIcon  class="icon">star</mat-icon>
+        <div matListItemTitle *ngIf="data" class="button-text">PERSONAL BEST</div>
     </mat-list-item>
-    <mat-list-item>
-        <button mat-button class="button" routerLinkActive="list-item-active" routerLink="">
-            <mat-icon class="icon">sports_gymnastics</mat-icon>
-            <span class="button-text">EXERCISES</span>
-        </button>
+    <mat-list-item routerLinkActive="list-item-active" routerLink="">
+        <mat-icon matListItemIcon  class="icon">sports_gymnastics</mat-icon>
+        <div matListItemTitle *ngIf="data" class="button-text">EXERCISES</div>
     </mat-list-item>
-    <mat-list-item>
-        <button mat-button class="button" routerLinkActive="list-item-active" routerLink="">
-            <mat-icon class="icon">checklist</mat-icon>
-            <span class="button-text">EVALUATION</span>
-        </button>
+    <mat-list-item routerLinkActive="list-item-active" routerLink="">
+        <mat-icon matListItemIcon  class="icon">checklist</mat-icon>
+        <div matListItemTitle *ngIf="data" class="button-text">EVALUATION</div>
     </mat-list-item>
-    <mat-list-item>
-        <button mat-button class="button" routerLinkActive="list-item-active" routerLink="">
-            <mat-icon class="icon">person</mat-icon>
-            <span class="button-text">PROFILE</span>
-        </button>
+    <mat-list-item routerLinkActive="list-item-active" routerLink="">
+        <mat-icon matListItemIcon  class="icon">person</mat-icon>
+        <div matListItemTitle *ngIf="data" class="button-text">PROFILE</div>
     </mat-list-item>
   </mat-nav-list>
