@@ -1,0 +1,57 @@
+.div-main {
+    padding: 0 1rem;
+    background: transparent;
+}
+
+.mat-card {
+  background: transparent;
+}
+
+.mat-header {
+  color: white;
+  font-size: 50px;
+}
+
+.mat-divider {
+  color: transparent;
+  padding: 10px;
+}
+
+.mat-card-content {
+  background: #3d3d3d;
+}
+
+.mat-card-content-header {
+  color: white;
+  font-size: 26px;
+}
+
+.mat-button {
+  width: 25%;
+  height: auto;
+  padding: 10px;
+  background: #212121;
+  border: none;
+  border-radius: 12px;
+  text-align: center;
+  transition-duration: 0.4s;
+}
+
+.mat-button:hover {
+  background-color: #aaaaaa;
+}
+
+.icon {
+  color:white;
+  font-size: 50px;
+}
+
+.button-text {
+  font-size: 24px;
+  color: white;
+}
+
+.mat-card-content-content {
+
+}
+

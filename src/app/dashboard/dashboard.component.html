@@ -1,1 +1,39 @@
-<h1>DASHBOARD</h1>
+<div class="div-main">
+  <mat-card class="mat-card">
+    <mat-card-header class="mat-header">
+      DASHBOARD
+    </mat-card-header>
+    <mat-divider></mat-divider>
+    <mat-card-content>
+      <mat-card class="mat-card-content">
+        <mat-card-header class="mat-card-content-header">
+          <button class="mat-button" (click)="click(1)">
+            <mat-icon class="icon" [inline]="true">restaurant</mat-icon>
+            <div matListItemTitle class="button-text">MEALS</div>
+          </button>
+          <mat-divider></mat-divider>
+          <button class="mat-button" (click)="click(2)">
+            <mat-icon class="icon" [inline]="true">directions_run</mat-icon>
+            <div matListItemTitle class="button-text">STEPS TAKEN</div>
+          </button>
+          <mat-divider></mat-divider>
+          <button class="mat-button" (click)="click(3)">
+            <mat-icon class="icon" [inline]="true">water_drop</mat-icon>
+            <div matListItemTitle class="button-text">WATER CONSUMED</div>
+          </button>
+          <mat-divider></mat-divider>
+          <button class="mat-button" (click)="click(4)">
+            <mat-icon class="icon" [inline]="true">bedtime</mat-icon>
+            <div matListItemTitle class="button-text">SLEEP DURATION</div>
+          </button>
+        </mat-card-header>
+        <mat-divider></mat-divider>
+        <mat-card-content class="mat-card-content-content">
+          <div *ngIf="choice==1">
+            
+          </div>
+        </mat-card-content>
+      </mat-card>
+    </mat-card-content>
+  </mat-card>
+</div>

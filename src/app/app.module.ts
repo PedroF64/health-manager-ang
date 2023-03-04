@@ -21,7 +21,9 @@ import { MatListModule } from '@angular/material/list';
 import { SidenavComponent } from './sidenav/sidenav.component';
 import { HeaderComponent } from './header/header.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
-import { MatMenuModule } from '@angular/material/menu'; 
+import { MatMenuModule } from '@angular/material/menu';
+import { WorkoutsComponent } from './workouts/workouts.component';
+
 
 @NgModule({
   declarations: [
@@ -31,6 +33,7 @@ import { MatMenuModule } from '@angular/material/menu';
     SidenavComponent,
     HeaderComponent,
     DashboardComponent,
+    WorkoutsComponent,
   ],
   imports: [
     BrowserModule,
